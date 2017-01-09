@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+.mc-modal {
+    margin-top: 50px;
+}
+
 .topnav {
     font-size: 14px; 
 }
