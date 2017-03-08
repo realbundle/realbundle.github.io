@@ -19,13 +19,13 @@
 			border-top: solid 1px;
 			padding: 2em 3em;
 			text-align: center;
-			width: calc(100% / 3);
+			width: calc(100% / 4);
 
-			&:nth-child(3n - 2) {
+			&:nth-child(4n - 3) {
 				border-left-width: 0;
 			}
 
-			&:nth-child(-n + 3) {
+			&:nth-child(-n + 4) {
 				border-top-width: 0;
 			}
 		}
