@@ -350,4 +350,9 @@ var settings = {
 
 	});
 
+	// Scrolly links.
+	$('.scrolly').scrolly({
+		speed: 1500
+	});
+
 })(jQuery);
