@@ -1,5 +1,5 @@
 // DD: http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
-@mixin vertical-align($position: relative) {
+@mixin vertical-align($position: absolute) {
   position: $position;
   top: 50%;
   -webkit-transform: translateY(-50%);

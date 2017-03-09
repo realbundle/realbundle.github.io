@@ -30,6 +30,12 @@
 			text-transform: uppercase;
 			vertical-align: middle;
 
+			img {
+				height: 30px;
+				float: left;
+				margin-right: 0.3em;
+			}
+
 			span {
 				border-left: solid 1px _palette(accent1, border);
 				color: _palette(accent1, fg-light);
@@ -98,6 +104,10 @@
 		@include breakpoint(small) {
 			> .logo {
 				font-size: 1em;
+
+				img {
+					margin-top: 0.5em;
+				}
 
 				span {
 					font-size: 1em;
