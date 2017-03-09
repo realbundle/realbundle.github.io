@@ -78,6 +78,20 @@
 			opacity: 1;
 			position: relative;
 
+			.cta {
+				@include vertical-align();
+				z-index: 1000;
+				background-color: _palette(fg); //rgba(67, 75, 86, 0.75);
+				margin: auto 0;
+				padding: 1em;
+
+				h2 {
+					color: white;
+					text-transform: none;
+					padding: 0 2em;
+				}
+			}
+
 			> article {
 				@include vendor('transition', (
 					'opacity #{_duration(slider)}',

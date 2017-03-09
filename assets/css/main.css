@@ -3623,6 +3623,20 @@ body.is-menu-visible #menu {
     width: 60%;
     opacity: 1;
     position: relative; }
+    #banner > .slider .cta {
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      z-index: 1000;
+      background-color: rgba(67, 75, 86, 0.75);
+      margin: auto 0;
+      padding: 1em; }
+      #banner > .slider .cta h2 {
+        color: white;
+        text-transform: none;
+        padding: 0 2em; }
     #banner > .slider > article {
       -moz-transition: opacity 1.5s, visibility 1.5s;
       -webkit-transition: opacity 1.5s, visibility 1.5s;
