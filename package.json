@@ -1,0 +1,22 @@
+{
+  "name": "realbundle",
+  "title": "Real Bundle",
+  "version": "0.0.1",
+  "homepage": "http://www.realbundle.com",
+  "author": "Daniel Dixon",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^1.11.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/realbundle/realbundle.github.io.git"
+  }
+}
