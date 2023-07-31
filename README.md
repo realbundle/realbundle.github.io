@@ -1,27 +1,11 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Landing Page](http://startbootstrap.com/template-overviews/landing-page/)
+# Pulling RealBundle from WebFlow
 
-[Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+Be sure to install `wget` via HomeBrew.
 
-## Getting Started
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-landing-page.git`
-* Fork the repo
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-landing-page/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/landing-page/).
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
+1. Open a temporary directory in console.
+2. Run `wget --recursive --page-requisites --span-hosts --html-extension --domains="realbundle.com,uploads-ssl.webflow.com" realbundle.com`
+3. Move the files in `www.realbundle.com` to the `realbundle.com` folder.
+4. Open the `uploads-ssl.webflow.com` folder and rename the `64475dc938d5f0a9a3db70a4` folder to  `assets`, then move it into the `realbundle.com` folder.
+5. Open the `realbundle.com` folder in VS Code.
+6. Search and bulk replace `https://uploads-ssl.webflow.com/64475dc938d5f0a9a3db70a4` to `/assets`
+7. Copy/paste all the folders into the root of this project.
